@@ -40,7 +40,7 @@ export default function Login() {
             autoComplete="current-password"
           />
        <Button variant="contained" fullWidth color="secondary" target="_blank">
-       <Link to="/Info" style={{textDecoration: "none", color: "white"}}>
+       <Link to="/SecondPage" style={{textDecoration: "none", color: "white"}}>
                                    Sign In
        </Link>
 </Button>

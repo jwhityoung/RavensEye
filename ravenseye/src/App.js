@@ -3,7 +3,7 @@ import './App.css';
 import { Route, Switch, Redirect } from 'react-router-dom';
 
 import FauxLogin from './pages/FauxLogin';
-import Info from './pages/Info'
+import SecondPage from './pages/SecondPage'
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
       <Route  exact path="/">
    <FauxLogin />
    </Route>
-   <Route  exact path="/info">
-   <Info />
+   <Route  exact path="/SecondPage">
+   <SecondPage />
    </Route>
    </Switch>
     </div>
